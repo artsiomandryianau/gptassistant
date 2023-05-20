@@ -14,7 +14,7 @@ app:
 #      ddl-auto: validate
 chatgpt:
   url: https://api.openai.com/v1/chat/completions
-  key: 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
+  key: key
   model: gpt-3.5-turbo
 
 logging:
