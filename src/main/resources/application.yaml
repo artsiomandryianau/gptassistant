@@ -1,0 +1,26 @@
+app:
+  bot:
+    token: 5674850195:AAFqK1KQmmN50RHsozYnQ1a6e4vQa33CTu8
+  developer:
+    id: ${DATEFY_DEVELOPER_ID}w
+
+#spring:
+#  datasource:
+#    url: ${DATEFY_DB_URL}
+#    username: ${DATEFY_DB_USER}
+#    password: ${DATEFY_DB_PASSWORD}
+#  jpa:
+#    hibernate:
+#      ddl-auto: validate
+chatgpt:
+  url: https://api.openai.com/v1/chat/completions
+  key: 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
+  model: gpt-3.5-turbo
+
+logging:
+  level:
+    dev:
+      seniorjava:
+        datefy: TRACE
+    org:
+      springframework: INFO
